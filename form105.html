@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>form</title>
+<style>
+fieldset{
+background-color:lightblue;
+border-color:black;
+}
+input[type=SUBMIT]{
+background-color: pink;
+cursor: pointer;
+}
+input[type=SUBMIT]:hover{
+background-color: green;
+}
+input[type=CANCEL]{
+background-color: pink;
+width: 60px;
+cursor: pointer;
+}
+input[type=CANCEL]:hover{
+background-color: green;
+}
+</style>
+</head>
+<body>
+<h1 style="color:green"><center><b>STUDENT REGISTRATION FORM</b></center></h1>
+<fieldset>
+ 
+<fieldset>
+<legend style="color:blue"><b>PERSONAL DETAILS</b></legend>
+
+<br>
+
+
+<div>
+<label for="name"><b>First Name:</b></label>
+<input type="text" placeholder="enter your name">
+</div>
+<br>
+<div>
+<label for="name"><b>Last Name:</b></label>
+<input type="text" placeholder="enter your name">
+</div>
+<br>
+<br>
+<div>
+<label for="email"><b>E-mail Address:</b></label>
+<input type="text" placeholder="abc@gmail.com">
+</div>
+<br>
+<div>
+<label for="birthday"><b>Date of Birth:</b></label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+</div>
+<div>
+<label for="number"><b>Mobile number:</b></label>
+<input type="text" placeholder="91+">
+<br>
+
+
+
+
+</div>
+<br>
+<div>
+<label for="gender"><b>Gender:</b></label>
+    <input type="radio" name="gender" value="male"> Male
+   
+    <input type="radio" name="gender" value="female"> Female
+    <br>
+<br>
+<br>
+<div>
+<label for="name"><b>Father's Name:</b></label>
+<input type="text" placeholder="enter father's name">
+</div>
+<br>
+<div>
+<label for="name"><b>Mothre's Name:</b></label>
+<input type="text" placeholder="enter mothre's name">
+</div>
+<br>
+
+<div>
+<label for="Street Address"><b> Address</b></label>
+<textarea name="Enter your address" rows="4" cols="25"></textarea>
+</div>
+<br>
+
+</fieldset>
+<br>
+<fieldset>
+<legend style="color:blue"><b>ACADEMIC DETAILS</b></legend>
+<br>
+<div>
+<label for="city"><b>SSLC mark:</b></label>
+<input type="text" placeholder>
+</div>
+<br>
+<div>
+<label for="code"><b>HSC mark:</b></label>
+<input type="text">
+</div>
+<br>
+<div>
+<label><b>School name:</b></label>
+<input type="text">
+
+</div>
+<br>
+<div>
+<label><b>School Address</b></label>
+<textarea name="Enter your address" rows="4" cols="25"></textarea>
+<br>
+
+</div>
+</fieldset>
+<br>
+<div>
+<fieldset>
+<legend style="color:blue"><B>Cutoff DETAILS</b></legend>
+<div>
+<label><b>Cutoff:</b></label>
+<input type="checkbox">Above 100%
+<input type="checkbox">Above 150%
+<input type="checkbox">Above 180%
+<input type="checkbox">Above 190%
+</div>
+<br>
+
+
+
+<label><b>Course</b></label>
+<select>
+<option>Information Technology</option>
+<option>Computer Science Engineering</option>
+<option>Electrical and Electronics Engineering</option>
+<option>Civil Engineering</option>
+<option>Mechanical Engineering</option>
+
+</select>
+
+
+<br>
+<br>
+<label><b> College</b></label>
+<select>
+<option>Kongu Engineering College</option>
+<option>Nandha Engineering College</option>
+<option>Anna University</option>
+</select>
+</div>
+<br>
+<center><input type="submit" value="SUBMIT"></center>
+<br>
+<center><input type="cancel" value="CANCEL"></center>
+<br>
+</fieldset>
+</fieldset>
+</form>
+</body>
+</html>
